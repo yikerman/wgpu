@@ -42,6 +42,12 @@ Bottom level categories:
 
 ## Unreleased
 
+### Added/New Features
+
+#### Vulkan
+
+- Add `SurfaceColorSpace::PassThrough`, mapped to `VK_COLOR_SPACE_PASS_THROUGH_EXT`, so applications can describe the native surface's color themselves, e.g. through Wayland color management. By @yikerman in [#10545](https://github.com/gfx-rs/wgpu/issues/10545).
+
 ## v30.0.1 (2026-08-21)
 
 ### Bug Fixes
